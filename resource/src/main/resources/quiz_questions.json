@@ -1,0 +1,1802 @@
+[
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java?",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code?",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'?",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java?",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems?",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team?",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index?",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource?",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions?",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`?",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 1)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 1)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 1)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 1)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 1)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 1)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 1)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 1)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 1)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 1)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 2)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 2)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 2)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 2)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 2)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 2)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 2)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 2)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 2)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 2)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 3)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 3)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 3)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 3)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 3)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 3)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 3)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 3)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 3)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 3)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 4)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 4)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 4)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 4)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 4)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 4)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 4)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 4)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 4)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 4)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 5)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 5)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 5)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 5)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 5)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 5)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 5)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 5)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 5)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 5)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 6)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 6)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 6)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 6)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 6)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 6)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 6)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 6)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 6)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 6)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 7)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 7)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 7)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 7)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 7)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 7)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 7)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 7)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 7)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 7)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 8)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 8)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 8)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 8)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 8)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 8)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 8)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 8)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 8)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 8)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 9)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 9)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 9)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 9)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 9)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 9)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 9)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 9)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 9)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 9)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 10)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 10)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 10)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 10)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 10)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 10)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 10)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 10)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 10)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 10)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 11)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 11)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 11)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 11)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 11)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 11)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 11)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 11)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 11)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 11)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 12)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 12)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 12)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 12)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 12)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 12)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 12)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 12)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 12)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 12)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 13)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 13)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 13)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 13)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 13)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 13)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 13)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 13)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 13)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 13)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 14)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 14)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 14)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 14)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 14)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 14)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 14)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 14)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 14)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 14)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 15)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 15)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 15)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 15)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 15)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 15)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 15)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 15)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 15)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 15)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 16)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 16)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 16)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 16)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 16)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 16)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 16)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 16)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 16)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 16)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 17)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 17)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 17)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 17)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 17)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 17)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 17)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 17)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 17)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 17)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 18)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 18)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 18)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 18)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 18)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 18)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 18)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 18)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 18)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 18)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    },
+    {
+        "question": "What is the primary benefit of using the 'final' keyword in Java? (Variation 19)",
+        "correctAnswer": "It prevents the variable or method from being modified.",
+        "incorrectAnswers": [
+            "It makes the variable faster.",
+            "It allows the variable to be changed after initialization.",
+            "It enhances the readability of the code."
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of clean code? (Variation 19)",
+        "correctAnswer": "Code should be easy to understand.",
+        "incorrectAnswers": [
+            "Code should be optimized for performance above all else.",
+            "Code should be written in a single file.",
+            "Code should use as many design patterns as possible."
+        ]
+    },
+    {
+        "question": "What is 'green code'? (Variation 19)",
+        "correctAnswer": "Code that is efficient and environmentally sustainable.",
+        "incorrectAnswers": [
+            "Code that is written in green text.",
+            "Code that uses fewer classes.",
+            "Code that follows the green programming paradigm."
+        ]
+    },
+    {
+        "question": "Which framework is widely used for building event-based systems in Java? (Variation 19)",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "Spring Boot",
+            "JPA",
+            "Hibernate"
+        ]
+    },
+    {
+        "question": "What does Camunda primarily help with in software systems? (Variation 19)",
+        "correctAnswer": "Business process automation.",
+        "incorrectAnswers": [
+            "Data storage and retrieval.",
+            "UI component management.",
+            "Error handling in distributed systems."
+        ]
+    },
+    {
+        "question": "What is the main purpose of a 'Scrum Master' in a Scrum team? (Variation 19)",
+        "correctAnswer": "To facilitate communication and remove obstacles for the team.",
+        "incorrectAnswers": [
+            "To write all the code.",
+            "To act as the team's project manager.",
+            "To assign tasks to each team member."
+        ]
+    },
+    {
+        "question": "Which of the following is a common type of database index? (Variation 19)",
+        "correctAnswer": "B-Tree",
+        "incorrectAnswers": [
+            "Linked List",
+            "Binary Search Tree",
+            "Hash Map"
+        ]
+    },
+    {
+        "question": "Which HTTP method is used to update an existing resource? (Variation 19)",
+        "correctAnswer": "PUT",
+        "incorrectAnswers": [
+            "GET",
+            "POST",
+            "DELETE"
+        ]
+    },
+    {
+        "question": "Which Java keyword is used to handle exceptions? (Variation 19)",
+        "correctAnswer": "try-catch",
+        "incorrectAnswers": [
+            "handle",
+            "exception",
+            "catch-throw"
+        ]
+    },
+    {
+        "question": "In Java, what is the effect of calling `System.gc()`? (Variation 19)",
+        "correctAnswer": "It suggests that the Java Virtual Machine (JVM) performs garbage collection.",
+        "incorrectAnswers": [
+            "It forces garbage collection to run immediately.",
+            "It deletes all unused variables from memory.",
+            "It shuts down the JVM."
+        ]
+    }
+]
