@@ -5,33 +5,42 @@ import '../styles/App.css';
 import handleAnswerClick from '../utils/handleAnswerClick';
 import handleNextClick from '../utils/handleNextClick';
 
-function CommonQuizApp ({ questions }) {
-    // State to store the current question
+function CommonQuizApp({ questions }) {
     const [question, setQuestion] = useState(null);
-    // State to store the index of the current question being displayed
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    // State to store the player's score (starts at 0)
     const [score, setScore] = useState(0);
-    // State to track if the user has answered the current question
     const [userAnswered, setUserAnswered] = useState(false);
-    // State to track if the user's answer to the current question is correct
     const [userAnswerCorrect, setUserAnswerCorrect] = useState(false);
-    // State to track if the quiz is finished (i.e., when all questions are answered)
     const [finished, setFinished] = useState(false);
+    const [shuffledAnswers, setShuffledAnswers] = useState([]);
 
-    // Custom hook to fetch quiz questions from the API
-
-    // useEffect hook to handle loading the current question when questions or index change
+    // useEffect hook to handle loading the current question and shuffling the answers
     useEffect(() => {
-        // Check if we have questions and the index is valid
         if (questions.length > 0 && currentQuestionIndex < questions.length) {
-            // Set the current question to be displayed
-            setQuestion(questions[currentQuestionIndex]);
+            const currentQuestion = questions[currentQuestionIndex];
+            setQuestion(currentQuestion);
+
+            // Shuffle the answers only once when the question is loaded
+            const answers = [
+                ...currentQuestion.incorrectAnswers,
+                currentQuestion.correctAnswer,
+            ];
+            setShuffledAnswers(shuffleArray(answers));
 
             // Reset the userAnswered flag so they can answer the new question
             setUserAnswered(false);
         }
-    }, [questions, currentQuestionIndex]); // Dependency array: runs when `questions` or `currentQuestionIndex` changes
+    }, [questions, currentQuestionIndex]);
+
+    // Function to shuffle an array (Fisher-Yates algorithm)
+    function shuffleArray(array) {
+        const shuffledArray = [...array];
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        }
+        return shuffledArray;
+    }
 
     // If the quiz is finished, display the result screen
     if (finished) {
@@ -43,6 +52,7 @@ function CommonQuizApp ({ questions }) {
         return (
             <Question
                 question={question} // Pass the current question as a prop
+                shuffledAnswers={shuffledAnswers} // Pass the shuffled answers
                 handleAnswerClick={(answer) =>
                     handleAnswerClick(
                         answer, // The answer selected by the user
