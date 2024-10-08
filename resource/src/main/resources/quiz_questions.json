@@ -88,5 +88,455 @@
             "Arrays cannot store objects.",
             "Array size can change dynamically."
         ]
+    },
+    {
+        "question": "What is the output of 'System.out.println(10 + 20 + \"30\")' in Java?",
+        "correctAnswer": "3030",
+        "incorrectAnswers": [
+            "102030",
+            "60",
+            "1030"
+        ]
+    },
+    {
+        "question": "Which component of the Spring framework is responsible for dependency injection?",
+        "correctAnswer": "Spring IoC container",
+        "incorrectAnswers": [
+            "Spring MVC",
+            "Spring Security",
+            "Spring AOP"
+        ]
+    },
+    {
+        "question": "In Kafka, what is the role of a producer?",
+        "correctAnswer": "Sends messages to a topic",
+        "incorrectAnswers": [
+            "Receives messages from a topic",
+            "Deletes messages from a topic",
+            "Replicates data to another cluster"
+        ]
+    },
+    {
+        "question": "What does the term 'polymorphism' refer to in Java?",
+        "correctAnswer": "The ability of a single function or method to behave differently based on input",
+        "incorrectAnswers": [
+            "The ability of a class to inherit from multiple classes",
+            "The ability to change a variable's data type at runtime",
+            "The process of converting one object to another"
+        ]
+    },
+    {
+        "question": "In a relational database, what does 'normalization' refer to?",
+        "correctAnswer": "Organizing data to reduce redundancy",
+        "incorrectAnswers": [
+            "Increasing query performance",
+            "Creating indexes for faster search",
+            "Backing up the database"
+        ]
+    },
+    {
+        "question": "What is the use of 'Component' in React?",
+        "correctAnswer": "It allows the creation of reusable UI elements",
+        "incorrectAnswers": [
+            "It performs API requests",
+            "It handles state management",
+            "It stores CSS styles"
+        ]
+    },
+    {
+        "question": "Which Azure service provides machine learning model management?",
+        "correctAnswer": "Azure Machine Learning",
+        "incorrectAnswers": [
+            "Azure Cognitive Services",
+            "Azure Logic Apps",
+            "Azure IoT Hub"
+        ]
+    },
+    {
+        "question": "What is a microservice architecture in software development?",
+        "correctAnswer": "An architecture style where each service is a small, independently deployable unit",
+        "incorrectAnswers": [
+            "A monolithic architecture with a central database",
+            "An event-driven system with centralized orchestration",
+            "A single service containing all business logic"
+        ]
+    },
+    {
+        "question": "In Java, which data structure is used to store key-value pairs?",
+        "correctAnswer": "HashMap",
+        "incorrectAnswers": [
+            "ArrayList",
+            "LinkedList",
+            "TreeSet"
+        ]
+    },
+    {
+        "question": "What is 'backpropagation' in neural networks?",
+        "correctAnswer": "A method to calculate the error gradient for updating weights",
+        "incorrectAnswers": [
+            "A technique for generating new data",
+            "A way to initialize neural networks",
+            "A method for splitting data into training and test sets"
+        ]
+    },
+    {
+        "question": "What is the role of a 'Service' annotation in Spring?",
+        "correctAnswer": "Marks a class as a service layer component",
+        "incorrectAnswers": [
+            "Defines a controller for web requests",
+            "Configures a data repository",
+            "Creates a new thread"
+        ]
+    },
+    {
+        "question": "In React, what is the purpose of 'props'?",
+        "correctAnswer": "They pass data from a parent component to a child component",
+        "incorrectAnswers": [
+            "They store the state of the component",
+            "They handle API requests",
+            "They apply CSS styles to the component"
+        ]
+    },
+    {
+        "question": "Which of the following is a widely used event-streaming platform in Java?",
+        "correctAnswer": "Kafka",
+        "incorrectAnswers": [
+            "RabbitMQ",
+            "JMS",
+            "REST API"
+        ]
+    },
+    {
+        "question": "In a database, what is a 'JOIN' operation?",
+        "correctAnswer": "Combines rows from two or more tables based on a related column",
+        "incorrectAnswers": [
+            "Deletes duplicate rows from a table",
+            "Retrieves only unique rows",
+            "Adds new columns to a table"
+        ]
+    },
+    {
+        "question": "What is the output of 'System.out.println(10 / 0)' in Java?",
+        "correctAnswer": "ArithmeticException",
+        "incorrectAnswers": [
+            "0",
+            "10",
+            "Infinity"
+        ]
+    },
+    {
+        "question": "Which command is used to push a commit in Git to the remote repository?",
+        "correctAnswer": "git push",
+        "incorrectAnswers": [
+            "git pull",
+            "git merge",
+            "git fetch"
+        ]
+    },
+    {
+        "question": "In Java, which keyword is used to prevent a class from being subclassed?",
+        "correctAnswer": "final",
+        "incorrectAnswers": [
+            "static",
+            "private",
+            "abstract"
+        ]
+    },
+    {
+        "question": "Which of these is not a valid scope in Spring?",
+        "correctAnswer": "Thread",
+        "incorrectAnswers": [
+            "Singleton",
+            "Prototype",
+            "Request"
+        ]
+    },
+    {
+        "question": "In Kafka, what is a 'consumer group'?",
+        "correctAnswer": "A group of consumers that collaborate to read messages from a topic",
+        "incorrectAnswers": [
+            "A group of producers sending messages to a topic",
+            "A collection of Kafka brokers",
+            "A set of partitions within a topic"
+        ]
+    },
+    {
+        "question": "In a relational database, what is a 'foreign key'?",
+        "correctAnswer": "A key that references the primary key in another table",
+        "incorrectAnswers": [
+            "A key that ensures uniqueness within a table",
+            "A key used to partition the table",
+            "A key that accelerates data retrieval"
+        ]
+    },
+    {
+        "question": "Which design pattern allows an object to change its behavior when its internal state changes?",
+        "correctAnswer": "State pattern",
+        "incorrectAnswers": [
+            "Strategy pattern",
+            "Observer pattern",
+            "Decorator pattern"
+        ]
+    },
+    {
+        "question": "What is the correct way to define a lambda expression in Java?",
+        "correctAnswer": "(parameters) -> expression",
+        "incorrectAnswers": [
+            "lambda(parameters) -> expression",
+            "(parameters) -> lambda expression",
+            "(parameters) => expression"
+        ]
+    },
+    {
+        "question": "What does SQL 'GROUP BY' clause do?",
+        "correctAnswer": "Groups rows sharing a property into summary rows",
+        "incorrectAnswers": [
+            "Sorts rows in ascending order",
+            "Joins tables based on a condition",
+            "Selects only unique rows"
+        ]
+    },
+    {
+        "question": "What does the 'this' keyword refer to in Java?",
+        "correctAnswer": "The current object",
+        "incorrectAnswers": [
+            "The class itself",
+            "A new object",
+            "A method reference"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'npm install' in a React project?",
+        "correctAnswer": "Installs dependencies from package.json",
+        "incorrectAnswers": [
+            "Runs the React application",
+            "Installs Node.js",
+            "Deploys the React app to production"
+        ]
+    },
+    {
+        "question": "Which machine learning model is commonly used for classification tasks?",
+        "correctAnswer": "Decision Tree",
+        "incorrectAnswers": [
+            "K-means clustering",
+            "Linear Regression",
+            "Random Forest"
+        ]
+    },
+    {
+        "question": "What is the purpose of a primary key in a relational database?",
+        "correctAnswer": "Uniquely identifies a record in a table",
+        "incorrectAnswers": [
+            "Links two tables together",
+            "Indexes a column for faster searches",
+            "Creates a new table"
+        ]
+    },
+    {
+        "question": "In Kafka, what does a topic represent?",
+        "correctAnswer": "A category in which messages are published",
+        "incorrectAnswers": [
+            "A message queue",
+            "A group of consumers",
+            "A partitioning mechanism"
+        ]
+    },
+    {
+        "question": "In Spring Boot, which property can be used to set the default port?",
+        "correctAnswer": "server.port",
+        "incorrectAnswers": [
+            "server.url",
+            "spring.port",
+            "spring.server.port"
+        ]
+    },
+    {
+        "question": "Which Java feature allows multiple methods in the same class to have the same name but different parameters?",
+        "correctAnswer": "Method overloading",
+        "incorrectAnswers": [
+            "Method overriding",
+            "Encapsulation",
+            "Polymorphism"
+        ]
+    },
+    {
+        "question": "Why did the Java developer wear glasses?",
+        "correctAnswer": "Because they couldn't C#.",
+        "incorrectAnswers": [
+            "Because they liked the style.",
+            "Because it's a compiler requirement.",
+            "Because IntelliJ told them to."
+        ]
+    },
+    {
+        "question": "Why do Python programmers prefer dark mode?",
+        "correctAnswer": "Because the light attracts bugs.",
+        "incorrectAnswers": [
+            "Because it's better for their eyes.",
+            "Because it's a new trend.",
+            "Because PEP8 recommends it."
+        ]
+    },
+    {
+        "question": "Why do programmers hate nature?",
+        "correctAnswer": "It has too many bugs.",
+        "incorrectAnswers": [
+            "Because it's slow to compile.",
+            "Because there\u2019s no Wi-Fi.",
+            "Because they can\u2019t find the source code."
+        ]
+    },
+    {
+        "question": "Why did the developer go broke?",
+        "correctAnswer": "Because they used up all their cache.",
+        "incorrectAnswers": [
+            "Because they didn\u2019t optimize their loops.",
+            "Because they lost their stack.",
+            "Because they couldn\u2019t debug the code."
+        ]
+    },
+    {
+        "question": "Why do Java developers wear headphones?",
+        "correctAnswer": "Because they don\u2019t want to listen to null pointers.",
+        "incorrectAnswers": [
+            "Because it helps them concentrate.",
+            "Because their code is too loud.",
+            "Because Eclipse has audio output now."
+        ]
+    },
+    {
+        "question": "How many developers does it take to change a light bulb?",
+        "correctAnswer": "None, that's a hardware problem.",
+        "incorrectAnswers": [
+            "One, if they have the right permissions.",
+            "Two, to write the change request.",
+            "Three, if the lightbulb is deprecated."
+        ]
+    },
+    {
+        "question": "Why did the function break up with the loop?",
+        "correctAnswer": "It found someone else to call.",
+        "incorrectAnswers": [
+            "Because the loop was infinite.",
+            "Because they couldn't handle recursion.",
+            "Because the function didn't return anything."
+        ]
+    },
+    {
+        "question": "Why don't programmers like to tell jokes?",
+        "correctAnswer": "Because the jokes are all null-terminated.",
+        "incorrectAnswers": [
+            "Because the jokes are not thread-safe.",
+            "Because the compiler always throws an error.",
+            "Because they have to explain them."
+        ]
+    },
+    {
+        "question": "Why do developers make great partners?",
+        "correctAnswer": "Because they can commit.",
+        "incorrectAnswers": [
+            "Because they always optimize.",
+            "Because they don't need much RAM.",
+            "Because they\u2019re used to handling exceptions."
+        ]
+    },
+    {
+        "question": "Why was the developer's job so secure?",
+        "correctAnswer": "Because they couldn't be replaced by a script.",
+        "incorrectAnswers": [
+            "Because they wrote solid tests.",
+            "Because they had root access.",
+            "Because they had an encrypted key."
+        ]
+    },
+    {
+        "question": "Why do front-end developers eat quickly?",
+        "correctAnswer": "Because they don't want to wait for the back-end.",
+        "incorrectAnswers": [
+            "Because they love fast food.",
+            "Because the server is slow.",
+            "Because their UI is undercooked."
+        ]
+    },
+    {
+        "question": "Why don't programmers like to go outside?",
+        "correctAnswer": "Because there's too much sun() and not enough fun().",
+        "incorrectAnswers": [
+            "Because the network is weak.",
+            "Because they're afraid of bugs.",
+            "Because they prefer the console."
+        ]
+    },
+    {
+        "question": "Why was the SQL query so sad?",
+        "correctAnswer": "It had too many inner joins.",
+        "incorrectAnswers": [
+            "It couldn't find a match.",
+            "Its results were null.",
+            "It was missing a semicolon."
+        ]
+    },
+    {
+        "question": "Why do backend developers love breakfast?",
+        "correctAnswer": "Because they love handling the toast() function.",
+        "incorrectAnswers": [
+            "Because it's scalable.",
+            "Because they use microservices.",
+            "Because it runs in the cloud."
+        ]
+    },
+    {
+        "question": "Why did the web developer go broke?",
+        "correctAnswer": "Because they kept clearing their cache.",
+        "incorrectAnswers": [
+            "Because they couldn't find the right script.",
+            "Because their HTML wasn't valid.",
+            "Because they lost all their cookies."
+        ]
+    },
+    {
+        "question": "Why do programmers prefer using the dark web?",
+        "correctAnswer": "Because the light web attracts too many bugs.",
+        "incorrectAnswers": [
+            "Because it's faster.",
+            "Because it has better source control.",
+            "Because they like the shadows."
+        ]
+    },
+    {
+        "question": "Why did the database administrator break up with their partner?",
+        "correctAnswer": "They lost interest in their table.",
+        "incorrectAnswers": [
+            "Their rows didn't align.",
+            "The data was inconsistent.",
+            "They ran into too many foreign keys."
+        ]
+    },
+    {
+        "question": "Why did the programmer get a dog?",
+        "correctAnswer": "To help debug the code.",
+        "incorrectAnswers": [
+            "To have a loyal companion.",
+            "Because dogs understand recursion.",
+            "Because dogs don't throw exceptions."
+        ]
+    },
+    {
+        "question": "Why don't programmers like nature?",
+        "correctAnswer": "Too many bugs.",
+        "incorrectAnswers": [
+            "Too much sunlight.",
+            "No Wi-Fi signal.",
+            "No place to charge devices."
+        ]
+    },
+    {
+        "question": "Why do programmers prefer keyboards?",
+        "correctAnswer": "Because they're not fans of touch events.",
+        "incorrectAnswers": [
+            "They don't like fingerprints.",
+            "The keys are too small on phones.",
+            "Because they can type faster."
+        ]
     }
 ]

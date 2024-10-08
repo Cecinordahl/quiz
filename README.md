@@ -2,23 +2,21 @@
 
 ## Overview
 
-This project is a simple quiz game using the [Open Trivia Database](https://opentdb.com/) API. The user will be presented with 10 multiple-choice questions pulled from all available categories and difficulties.
+This project is a simple quiz game using the [Open Trivia Database](https://opentdb.com/) API. The user will be presented with 10 multiple-choice questions pulled from all available categories and difficulties. The user also has the option to choose questions that are fetched from a local file, consisting of developer-relevant questions.
 
 ## Features
 
 1. Displays 10 questions with four answer choices.
 2. Uses React for the UI and Spring Boot for the backend.
-3. The backend fetches questions from the Open Trivia Database API.
-4. Future plan: allow users to select specific categories and difficulty levels.
-5. Future plan: store user scores in a database, and trigger a Kafka event after quiz completion to populate a high score table.
+3. The backend fetches questions from the Open Trivia Database API or a local file.
 
 ## Technology Stack
 
-- Frontend: React
+- Frontend: Javascript, React
 - Backend: Java, Spring Boot
 - Build tool: Maven
 - Trivia API: Open Trivia Database API
-- Future: Kafka for event-driven architecture, PostgreSQL for storing high scores
+- Future: Kafka for event-driven architecture, MySQL for storing high scores
 
 ## Project Structure
 
@@ -31,10 +29,7 @@ This project is a simple quiz game using the [Open Trivia Database](https://open
 ## How to Run
 
 1. **Backend**:
-    - Navigate to the project folder and run:
-      ```bash
-      mvn spring-boot:run
-      ```
+    - Navigate to the src/main/java/com/ceci/games/quiz/Main.java class and run it
 
 2. **Frontend**:
     - Navigate to the React app directory and run:
@@ -43,12 +38,10 @@ This project is a simple quiz game using the [Open Trivia Database](https://open
       ```
 
 3. **Future Enhancements**:
-    - Allow user to select quiz categories and difficulty.
+    - Allow user to select quiz categories and difficulty from API.
     - Save high scores to a database and populate a leaderboard via Kafka event streams.
 
-
 ## TODOs
-- Remove duplicate questions from json
 - Create Tests
 - Add design
 - Create functionality to play again from the result page
