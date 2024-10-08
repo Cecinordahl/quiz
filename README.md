@@ -45,3 +45,10 @@ This project is a simple quiz game using the [Open Trivia Database](https://open
 3. **Future Enhancements**:
     - Allow user to select quiz categories and difficulty.
     - Save high scores to a database and populate a leaderboard via Kafka event streams.
+
+
+## TODOs
+- Remove duplicate questions from json
+- Create Tests
+- Add design
+- Create functionality to play again from the result page

@@ -3,11 +3,6 @@ package com.ceci.games.quiz.integration;
 import com.ceci.games.quiz.domain.TriviaQuestion;
 import com.ceci.games.quiz.domain.TriviaResponse;
 import com.ceci.games.quiz.model.QuestionDto;
-import org.apache.commons.text.StringEscapeUtils;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
-import org.springframework.web.client.RestTemplate;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
@@ -16,13 +11,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.toCollection;
-
 @Component
 public class TriviaConsumer {
 
+    // TODO write about issues: need to fetch more to filter out invalid however continuous error due to fetching too much
+
     // Fetch more questions than necessary, so you can filter out invalid ones
-    private final String API_URL = "https://opentdb.com/api.php?amount=50&type=multiple"; // Fetching 50 questions to filter out invalid ones
+    private final String API_URL = "https://opentdb.com/api.php?amount=10&type=multiple"; // Fetching 50 questions to filter out invalid ones
 
     private final RestTemplate restTemplate;
 
@@ -30,7 +25,7 @@ public class TriviaConsumer {
         this.restTemplate = new RestTemplate();
     }
 
-    public List<QuestionDto> fetchQuestionsFromApi() {
+    public List<QuestionDto> fetchQuestionsFromExternalApi() {
         // Fetch the questions from the API
         ResponseEntity<TriviaResponse> response = restTemplate.getForEntity(API_URL, TriviaResponse.class);
         List<TriviaQuestion> triviaQuestions = response.getBody().results();

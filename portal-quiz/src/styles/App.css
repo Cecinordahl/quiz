@@ -1,0 +1,64 @@
+/* App.css */
+.answer {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white; /* default background color */
+}
+
+.answer.correct {
+  background-color: green;
+}
+
+.answer.incorrect {
+  background-color: red;
+}
+
+.answer:hover {
+  opacity: 0.8;
+}
+
+.question-container {
+  padding: 20px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.result-message {
+  color: blue;
+  font-weight: bold;
+}
+
+.next-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #45a049;
+}
+
+.play-again-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-again-button:hover {
+  background-color: #45a049;
+}

@@ -8,16 +8,16 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class QuizService {
+public class ExternalApiQuizService {
 
     private final TriviaConsumer triviaConsumer;
 
     @Autowired
-    public QuizService(TriviaConsumer triviaConsumer) {
+    public ExternalApiQuizService(TriviaConsumer triviaConsumer) {
         this.triviaConsumer = triviaConsumer;
     }
 
-    public List<QuestionDto> getQuizQuestions() {
-        return triviaConsumer.fetchQuestionsFromApi();
+    public List<QuestionDto> fetchQuestions() {
+        return triviaConsumer.fetchQuestionsFromExternalApi();
     }
 }
