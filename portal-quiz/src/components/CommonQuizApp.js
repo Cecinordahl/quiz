@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import Question from './Question';
 import Result from './Result';
 import '../styles/App.css';
 import handleAnswerClick from '../utils/handleAnswerClick';
 import handleNextClick from '../utils/handleNextClick';
 
-function CommonQuizApp({ questions }) {
+function CommonQuizApp({questions}) {
     const [question, setQuestion] = useState(null);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [score, setScore] = useState(0);
@@ -44,7 +44,7 @@ function CommonQuizApp({ questions }) {
 
     // If the quiz is finished, display the result screen
     if (finished) {
-        return <Result score={score} />;
+        return <Result score={score}/>;
     }
 
     // Helper function to render the current question

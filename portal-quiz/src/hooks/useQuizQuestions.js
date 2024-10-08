@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {useEffect, useState} from 'react';
 
 const useQuizQuestions = (url) => {
     const [questions, setQuestions] = useState([]);
@@ -17,7 +17,7 @@ const useQuizQuestions = (url) => {
         }
     }, [url]); // The hook will re-run whenever the URL changes
 
-    return { questions, error };
+    return {questions, error};
 };
 
 export default useQuizQuestions;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Answer from './Answer';
 
-const Question = ({ question, shuffledAnswers, handleAnswerClick, userAnswered, userAnswerCorrect }) => {
+const Question = ({question, shuffledAnswers, handleAnswerClick, userAnswered, userAnswerCorrect}) => {
     return (
         <div className="question-container">
             <h1>{question.question}</h1>

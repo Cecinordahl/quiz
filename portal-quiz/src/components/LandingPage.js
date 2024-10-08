@@ -1,31 +1,26 @@
-import React, { useState } from 'react';
-import QuizFromFile from './QuizFromFile';  // Import the QuizFromFile component
-import QuizFromApi from './QuizFromApi';    // Import the QuizFromApi component
+import React, {useState} from 'react';
+import QuizFromFile from './QuizFromFile'; // Import the QuizFromFile component
+import QuizFromApi from './QuizFromApi'; // Import the QuizFromApi component
 
 function LandingPage() {
-    // State to track the selected quiz
     const [selectedQuiz, setSelectedQuiz] = useState('QuizFromFile');  // Default to QuizFromFile
-    // State to track if the user has clicked "Play" to start the quiz
     const [isQuizStarted, setIsQuizStarted] = useState(false);
 
-    // Handle selection from the dropdown
     const handleQuizSelection = (event) => {
         setSelectedQuiz(event.target.value);
     };
 
-    // Handle the "Play" button click, which starts the quiz
     const handlePlayClick = () => {
         setIsQuizStarted(true);  // When "Play" is clicked, start the quiz
     };
 
-    // Render the appropriate quiz component based on the selected option
     const renderQuiz = () => {
         switch (selectedQuiz) {
             case 'QuizFromApi':
-                return <QuizFromApi />;
+                return <QuizFromApi/>;
             case 'QuizFromFile':
             default:
-                return <QuizFromFile />;
+                return <QuizFromFile/>;
         }
     };
 

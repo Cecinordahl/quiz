@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Result({ score }) {
+function Result({score}) {
     return (
         <div>
             <h1>Quiz Finished!</h1>
