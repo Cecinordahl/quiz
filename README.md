@@ -41,6 +41,10 @@ This project is a simple quiz game using the [Open Trivia Database](https://open
     - Allow user to select quiz categories and difficulty from API.
     - Save high scores to a database and populate a leaderboard via Kafka event streams.
 
+## Important Note on Strict Mode in React
+
+In React 18+, Strict Mode intentionally re-renders components twice in development to identify side effects. However, I had to remove Strict Mode in my application because one of the external APIs I use has a rate limit, allowing only one request per IP address every 5 seconds. This rate limit caused issues when React re-rendered components multiple times, leading to frequent 429 errors (Too Many Requests).
+
 ## TODOs
 - Create Tests
 - Add design

@@ -3,21 +3,27 @@ package com.ceci.games.quiz.integration;
 import com.ceci.games.quiz.domain.TriviaQuestion;
 import com.ceci.games.quiz.domain.TriviaResponse;
 import com.ceci.games.quiz.model.QuestionDto;
+import org.apache.commons.text.StringEscapeUtils;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.toCollection;
+
+/**
+ * TriviaConsumer is responsible for interacting with the external Trivia API to fetch trivia questions.
+ * It fetches a set of trivia questions, filters out any invalid questions, and maps them to the format used in the application.
+ * The purpose of fetching more questions than required is to account for invalid entries and ensure a valid list of questions.
+ */
 @Component
 public class TriviaConsumer {
-
-    // TODO write about issues: need to fetch more to filter out invalid however continuous error due to fetching too much
-
-    // Fetch more questions than necessary, so you can filter out invalid ones
-    private final String API_URL = "https://opentdb.com/api.php?amount=10&type=multiple"; // Fetching 50 questions to filter out invalid ones
+    private static final int MAX_AMOUNT_OF_QUESTIONS = 10;
+    private final String API_URL = "https://opentdb.com/api.php?amount=10&type=multiple";
 
     private final RestTemplate restTemplate;
 
@@ -25,20 +31,40 @@ public class TriviaConsumer {
         this.restTemplate = new RestTemplate();
     }
 
-    public List<QuestionDto> fetchQuestionsFromExternalApi() {
-        // Fetch the questions from the API
+    public List<TriviaQuestion> fetchQuestionsFromExternalApi() {
         ResponseEntity<TriviaResponse> response = restTemplate.getForEntity(API_URL, TriviaResponse.class);
-        List<TriviaQuestion> triviaQuestions = response.getBody().results();
+        TriviaResponse triviaResponse = response.getBody();
 
-        // Filter out invalid questions and map to QuestionDto
+        if (triviaResponse == null) {
+            throw new RuntimeException("Failed to fetch trivia questions: Response body is null");
+        }
+
+        switch (triviaResponse.responseCode()) {
+            case 0:
+                // Success
+                break;
+            case 1:
+                throw new RuntimeException("No Results: The API doesn't have enough questions for your query.");
+            case 2:
+                throw new RuntimeException("Invalid Parameter: Arguments passed in aren't valid.");
+            case 3:
+                throw new RuntimeException("Token Not Found: Session token does not exist.");
+            case 4:
+                throw new RuntimeException("Token Empty: Session token has returned all possible questions. Resetting the token is necessary.");
+            case 5:
+                throw new RuntimeException("Rate Limit: Too many requests have occurred. Each IP can only access the API once every 5 seconds.");
+            default:
+                throw new RuntimeException("Unexpected response code: " + triviaResponse.responseCode());
+        }
+
+        List<TriviaQuestion> triviaQuestions = triviaResponse.results();
+
         return triviaQuestions.stream()
-                .filter(this::isValidTriviaQuestion) // Filter out questions with null fields
-                .map(this::mapToQuestionDto) // Map valid TriviaQuestion to QuestionDto
-                .limit(10) // Limit the result to 10 questions
-                .collect(Collectors.toList());
+                .filter(this::isValidTriviaQuestion)
+                .limit(MAX_AMOUNT_OF_QUESTIONS)
+                .collect(toCollection(ArrayList::new));
     }
 
-    // Validate that all necessary fields are non-null
     private boolean isValidTriviaQuestion(TriviaQuestion question) {
         return question.question() != null &&
                 question.correctAnswer() != null &&
@@ -46,22 +72,6 @@ public class TriviaConsumer {
                 !question.incorrectAnswers().contains(null);
     }
 
-    // Map TriviaQuestion to QuestionDto, handling HTML entity decoding
-/*    private QuestionDto mapToQuestionDto(TriviaQuestion triviaQuestion) {
-        return QuestionDto.builder()
-                .question(StringEscapeUtils.unescapeHtml4(triviaQuestion.question())) // Decode HTML entities
-                .correctAnswer(StringEscapeUtils.unescapeHtml4(triviaQuestion.correctAnswer())) // Decode HTML entities
-                .incorrectAnswers(triviaQuestion.incorrectAnswers().stream()
-                        .map(StringEscapeUtils::unescapeHtml4) // Decode HTML entities for incorrect answers
-                        .collect(Collectors.toList()))
-                .build();
-    }*/
 
-    private QuestionDto mapToQuestionDto(TriviaQuestion triviaQuestion) {
-        return QuestionDto.builder()
-                .question(triviaQuestion.question())
-                .correctAnswer(triviaQuestion.correctAnswer())
-                .incorrectAnswers(new ArrayList<>(triviaQuestion.incorrectAnswers()))
-                .build();
-    }
+
 }
