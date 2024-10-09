@@ -2,10 +2,13 @@ package com.ceci.games.quiz.integration;
 
 import com.ceci.games.quiz.domain.TriviaQuestion;
 import com.ceci.games.quiz.model.QuestionDto;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toCollection;
 
@@ -18,16 +21,18 @@ public class TriviaMapper {
                 .collect(toCollection(ArrayList::new));
     }
 
-    // TODO use StringEscapeUtils.unescapeHtml4 to decode the answers
     private QuestionDto mapToQuestionDto(TriviaQuestion triviaQuestion) {
         return QuestionDto.builder()
-                .question(triviaQuestion.question())
-                .correctAnswer(triviaQuestion.correctAnswer())
+                .question(Jsoup.parse(triviaQuestion.question()).text())
+                .correctAnswer(Jsoup.parse(triviaQuestion.correctAnswer()).text())
                 .incorrectAnswers(mapIncorrectAnswers(triviaQuestion))
                 .build();
     }
 
-    private static ArrayList<String> mapIncorrectAnswers(TriviaQuestion triviaQuestion) {
-        return new ArrayList<>(triviaQuestion.incorrectAnswers());
+    private ArrayList<String> mapIncorrectAnswers(TriviaQuestion triviaQuestion) {
+        return triviaQuestion.incorrectAnswers().stream()
+                .map(Jsoup::parse)
+                .map(Element::text)
+                .collect(Collectors.toCollection(ArrayList::new));
     }
 }

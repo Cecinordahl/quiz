@@ -30,14 +30,14 @@ public class QuizResourceTest {
     private QuizResource quizResource;
 
     @Test
-    void testGetQuizQuestions() {
+    void getQuizQuestionsFromApi() {
         // Arrange
         List<QuestionDto> mockQuestions = createQuestionList();
 
         when(externalApiQuizService.fetchQuestions()).thenReturn(mockQuestions);
 
         // Act
-        ResponseEntity<List<QuestionDto>> actualResponse = quizResource.getQuizQuestions();
+        ResponseEntity<List<QuestionDto>> actualResponse = quizResource.getQuizQuestionsFromApi();
 
         // Assert
         assertTrue(actualResponse.getStatusCode().is2xxSuccessful());
@@ -45,7 +45,7 @@ public class QuizResourceTest {
     }
 
     @Test
-    void testGetQuizQuestionsFromFile() {
+    void getQuizQuestionsFromFile() {
         // Arrange
         List<QuestionDto> mockQuestions = createQuestionList();
 

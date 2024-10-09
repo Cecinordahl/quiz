@@ -26,7 +26,7 @@ public class QuizResource {
     }
 
     @GetMapping("/external-api")
-    public ResponseEntity<List<QuestionDto>> getQuizQuestions() {
+    public ResponseEntity<List<QuestionDto>> getQuizQuestionsFromApi() {
         List<QuestionDto> questions = externalApiQuizService.fetchQuestions();
         return ResponseEntity.ok(questions);
     }
