@@ -24,19 +24,14 @@ public class FileQuizService {
 
     public List<QuestionDto> getQuizQuestionsFromFile() {
         try {
-            // Load the JSON file from src/main/resources/
             ClassPathResource resource = new ClassPathResource(QUIZ_QUESTIONS_FILE);
 
-            // Parse the JSON content to List<QuestionDto>
             List<QuestionDto> questions = objectMapper.readValue(
                     resource.getInputStream(),
                     new TypeReference<List<QuestionDto>>() {}
             );
 
-            // Shuffle the list of questions to get random order
             Collections.shuffle(questions);
-
-            // Return the first 10 questions (or less if there are fewer than 10 questions available)
             return questions.size() > QUESTION_LIMIT ? questions.subList(0, QUESTION_LIMIT) : questions;
 
         } catch (IOException e) {
