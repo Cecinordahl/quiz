@@ -54,3 +54,4 @@ In React 18+, Strict Mode intentionally re-renders components twice in developme
 - Add design
 - Create functionality to play again from the result page
 - Clean up portal in general
+- Fix and enable TriviaConsumerTest and QuizResourceTest
